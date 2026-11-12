@@ -1,0 +1,70 @@
+{
+  "id": "/",
+  "name": "Brick Road Coffee — Store Operations & Forms Hub",
+  "short_name": "Brick Road",
+  "description": "Store operations hub, daily shift checklists, FOH/BOH inventory & ordering forms, E.O.D. till calculator, and barista guides for Brick Road Coffee.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#391300",
+  "background_color": "#f7f5f0",
+  "categories": ["business", "productivity", "food"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Melrose Store Hub",
+      "short_name": "Melrose Hub",
+      "description": "Open Melrose daily checklists, orders, and guides",
+      "url": "/melrose",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Mesa Store Hub",
+      "short_name": "Mesa Hub",
+      "description": "Open Mesa daily checklists, orders, and guides",
+      "url": "/mesa",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Tempe Store Hub",
+      "short_name": "Tempe Hub",
+      "description": "Open Tempe daily checklists, orders, and guides",
+      "url": "/tempe",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "AM Task Sheet",
+      "short_name": "AM Tasks",
+      "description": "Morning opening & switchover shift checklist",
+      "url": "/melrose/am",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "PM Task Sheet",
+      "short_name": "PM Tasks",
+      "description": "Afternoon setup & closing shift checklist",
+      "url": "/melrose/pm",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

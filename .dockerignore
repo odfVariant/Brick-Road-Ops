@@ -1,0 +1,7 @@
+node_modules/
+.git/
+.aistudio/
+.playwright-cli/
+*.zip
+*.tmp.*
+test-data-*/
